@@ -12,7 +12,7 @@
 /* Float Section */
 .float-section {
     float: left;
-    /* Apply step 1 here */
+    
 }
 
 .clear-float {
@@ -27,14 +27,15 @@ justify-content: space-around;
 }
 
 .flex-item {
-    /* Apply step 4 here */
+     align-self: center; 
  
 
 }
 
 /* Grid Section */
 .grid-section {
-  height: 300px;
+  display:grid;
+    height: 300px;
   grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,1fr);
 }
